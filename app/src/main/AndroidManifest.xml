@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mycoding.mytravelguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyTravelGuide">
+        <activity android:name=".ForgetPasswordActivity"></activity>
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".CustomList" />
+        <activity android:name=".FunListActivity" />
+        <activity android:name=".AttractionListActivity" />
+        <activity android:name=".HotelListActivity" />
+        <activity android:name=".RestListActivity" />
+        <activity android:name=".CafeListActivity" />
+        <activity android:name=".ShopListActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

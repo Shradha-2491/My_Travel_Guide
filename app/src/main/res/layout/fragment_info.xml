@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5dc"
+    android:weightSum="5.5"
+    android:padding="10sp"
+    tools:context=".InfoFragment">
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:text=""
+        android:layout_marginTop="10sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:text="@string/address"
+        android:layout_weight="0.4"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.5"
+        android:text="@string/address_detail"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.4"
+        android:text="@string/information"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-condensed"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_weight="1.5"
+        android:layout_height="0sp"
+        android:text="@string/info_detail"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.4"
+        android:text="@string/contact_no"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-condensed"/>
+
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_weight="0.3"
+        android:layout_height="0sp"
+        android:textColor="@color/black"
+        android:text="@string/num"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:text=""
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"/>
+
+</LinearLayout>
